@@ -1,0 +1,23 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .input {
+    width: 150px;
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 7px;
+    padding: 3px 5px;
+    box-sizing: border-box;
+  }
+  
+  .controls {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button {
+    margin-bottom: 5px;
+  }

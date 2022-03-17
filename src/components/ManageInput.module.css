@@ -1,0 +1,7 @@
+.input {
+    border: '2px solid lightGray';
+}
+.controls {
+    display: grid;
+    grid-template-rows: max-content max-content;
+}
