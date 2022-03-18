@@ -12,15 +12,19 @@ const Refs = () => {
   
     return (
       <div>
-          <h2>Refs</h2>
+          <h3>Refs</h3>
         <input
+        className='input'
           type="text"
           ref={(input) => { textInput = input }} />
-        <input
-          type="button"
-          value="Focus the text input"
-          onClick={handleClick}
-        />
+        <div className='controls'>
+            <input
+            type="button"
+            className='button'
+            value="Focus the text input"
+            onClick={handleClick}
+            />
+        </div>
       </div>
     );  
 }
