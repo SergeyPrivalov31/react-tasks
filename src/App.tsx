@@ -9,7 +9,7 @@ export default function App() {
     <h1>Tasks from interview</h1>
     <div className='content'>
       <ManageInputs />
-      <Refs />
+      {/* <Refs /> */}
     </div>
 
 
